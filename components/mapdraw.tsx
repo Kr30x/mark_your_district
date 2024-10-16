@@ -34,6 +34,7 @@ const IconDefault = L.Icon.Default as unknown as {
 if (IconDefault.prototype._getIconUrl) {
   delete IconDefault.prototype._getIconUrl;
 }
+
 if (window !== undefined){
 IconDefault.mergeOptions({
   iconRetinaUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.1/images/marker-icon-2x.png',

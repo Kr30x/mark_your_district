@@ -10,6 +10,9 @@ export default function Navbar() {
         </Link>
         <div>
           <Link href="/" className="text-white mr-4">
+              Обучение
+          </Link>
+          <Link href="/mark" className="text-white mr-4">
             Разметка
           </Link>
           <Link href="/gallery" className="text-white">
